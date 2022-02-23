@@ -18,8 +18,8 @@ After downloading and saving the script on your Linux, with a text editor (like 
 nano wpnetworkscan.py
 ```
 ```
-keyword_search = "brasilia" # change here
-country = "org.br" # change here
+keyword_search = "amazonas" # change here
+country = "com.br" # change here
 token = "F91V12GFJNFSJSFOM8LdSHtWayd8PrT6VTiH19FU8" # change here | you can get a plan here: https://wpscan.com/pricing
 ```
 
