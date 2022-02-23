@@ -18,7 +18,7 @@ print('\n')
 
 keyword_search = "amazonas" ############# change here
 country = "com.br" ############# change here
-token = "" ############# change here | you can get a plan here: https://wpscan.com/pricing
+token = "F91V12GFJNFSJSFOM8LdSHtWayd8PrT6VTiH19FU8" ############# change here | you can get a plan here: https://wpscan.com/pricing
 
 # stores the search for websites
 palavra_chave = f'site:"{country}" intext:"{keyword_search}" inurl:wp-content/'
