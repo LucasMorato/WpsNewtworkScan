@@ -16,9 +16,9 @@ print('by Lucas F. Morato')
 print('Version 1.0')
 print('\n')
 
-keyword_search = "brasilia" # change here
-country = "org.br" # change here
-token = "F91V12GEeaSBjcQxVlN8LdSHtWayd8PrT6VTiH19FU8" # change here | you can get a plan here: https://wpscan.com/pricing
+keyword_search = "brasilia" ############# change here
+country = "org.br" ############# change here
+token = "" ############# change here | you can get a plan here: https://wpscan.com/pricing
 
 # stores the search for websites
 palavra_chave = f'site:"{country}" intext:"{keyword_search}" inurl:wp-content/'
@@ -27,7 +27,7 @@ palavra_chave = f'site:"{country}" intext:"{keyword_search}" inurl:wp-content/'
 try:
   print("Searching Url's...")
   sys.stdout = open("urls.tmp", "w")
-  for urls in search(palavra_chave, num=5, stop=5, pause=4): # IMPORTANTE: NÃO DIMINUIR O "PAUSE TIME" PARA MENOS DO QUE 4
+  for urls in search(palavra_chave, num=5, stop=5, pause=4): # IMPORTANT: DO NOT DECREASE THE "PAUSE TIME" TO LESS THAN 4
     print(urls)
 
   sys.stdout.close()
