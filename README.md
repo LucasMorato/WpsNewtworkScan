@@ -20,7 +20,7 @@ nano wpnetworkscan.py
 ```
 keyword_search = "brasilia" # change here
 country = "org.br" # change here
-token = "F91V12GEeaSBjcQxVlN8LdSHtWayd8PrT6VTiH19FU8" # change here | you can get a plan here: https://wpscan.com/pricing
+token = "F91V12GFJNFSJSFOM8LdSHtWayd8PrT6VTiH19FU8" # change here | you can get a plan here: https://wpscan.com/pricing
 ```
 
 Also change the number of sites you want to search in the `"num="` argument. Noting that the more sites searched at a time, the greater the chance that Google will temporarily block your IP.
