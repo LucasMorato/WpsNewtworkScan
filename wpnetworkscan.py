@@ -16,8 +16,8 @@ print('by Lucas F. Morato')
 print('Version 1.0')
 print('\n')
 
-keyword_search = "brasilia" ############# change here
-country = "org.br" ############# change here
+keyword_search = "california" ############# change here
+country = "com.br" ############# change here
 token = "" ############# change here | you can get a plan here: https://wpscan.com/pricing
 
 # stores the search for websites
