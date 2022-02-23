@@ -35,4 +35,4 @@ After changing the lines run with the command:
 python3 wpnetworkscan.py
 ```
 
-The script takes a while to run depending on the number of sites that are fetched.
+The script takes a while to complete depending on the number of sites that are fetched.
