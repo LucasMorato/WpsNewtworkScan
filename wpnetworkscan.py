@@ -61,7 +61,6 @@ writeFile.close()
 os.remove("urls.tmp")
 
 # run wpscan and show only vulnerabilities
-
 with open("updatedUrls.tmp", "r") as h:
   for line in h:
     wpsfile = line.strip()
