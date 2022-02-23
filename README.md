@@ -25,7 +25,7 @@ country = "com.br" # change here
 token = "F91V12GFJNFSJSFOM8LdSHtWayd8PrT6VTiH19FU8" # change here | you can get a plan here: https://wpscan.com/pricing
 ```
 
-Also change the number of sites you want to search in the `"num="` argument. Noting that the more sites searched at a time, the greater the chance that Google will temporarily block your IP.
+Also change the number of websites you would like to change in the argument "num-". It is important to mention as well that everytime you search for a website, the chances that Google blocks your IP emporaril increases.
 ```
 for urls in search(keyword, num=5, stop=5, pause=4)
 ```
