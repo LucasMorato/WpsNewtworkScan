@@ -2,6 +2,8 @@
 
 <img src="https://i.postimg.cc/2848fzvy/download.png" alt="wpnetworkscan">
 
+Version 1.0
+
 This script was developed with the intention of improving the internet in order to find vulnerabilities in an automated way and report to the respective owners the flaw to be corrected.
 
 The script searches for wordpress sites on the internet according to the settings you establish.
