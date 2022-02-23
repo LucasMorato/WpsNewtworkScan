@@ -21,13 +21,13 @@ country = "com.br" ############# change here
 token = "F91V12GFJNFSJSFOM8LdSHtWayd8PrT6VTiH19FU8" ############# change here | you can get a plan here: https://wpscan.com/pricing
 
 # stores the search for websites
-palavra_chave = f'site:"{country}" intext:"{keyword_search}" inurl:wp-content/'
+keyword = f'site:"{country}" intext:"{keyword_search}" inurl:wp-content/'
 
 # search for addresses and send to a tmp file
 try:
   print("Searching Url's...")
   sys.stdout = open("urls.tmp", "w")
-  for urls in search(palavra_chave, num=5, stop=5, pause=4): # IMPORTANT: DO NOT DECREASE THE "PAUSE TIME" TO LESS THAN 4
+  for urls in search(keyword, num=5, stop=5, pause=4): # change "num=" to search more than 5 websites | IMPORTANT: DO NOT DECREASE THE "PAUSE TIME" TO LESS THAN 4
     print(urls)
 
   sys.stdout.close()
